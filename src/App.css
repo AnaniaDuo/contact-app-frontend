@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+input,
+textarea {
+  padding: 0.4rem;
+  margin: 3px;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+button:disabled {
+  background-color: grey;
+  border-radius: 10px;
+}
