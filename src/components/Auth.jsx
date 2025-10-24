@@ -15,7 +15,7 @@ function Auth() {
   useEffect(() => {
     console.log("token", token);
     if (token["mr-token"]) {
-      navigate("/movies");
+      navigate("/contacts");
     }
   }, [token]);
 
@@ -23,7 +23,7 @@ function Auth() {
     const resp = await API.userLogin({ username, password });
     if (resp) {
       setToken("mr-token", resp.token);
-      navigate("/movies");
+      navigate("/contacts");
     }
   };
 

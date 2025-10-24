@@ -15,7 +15,7 @@ function Router() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Auth />}></Route>
-          <Route path="/movies" element={<App />}></Route>
+          <Route path="/contacts" element={<App />}></Route>
         </Routes>
       </BrowserRouter>
     </CookiesProvider>
